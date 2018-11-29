@@ -1,2 +1,2 @@
-# ternaklovebird
-Aplikasi Video Tutorial Ternak Lovebird
+# TernakLovebird
+Video Tutorial Ternak Lovebird

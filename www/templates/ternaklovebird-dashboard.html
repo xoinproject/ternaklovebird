@@ -1,0 +1,42 @@
+	<ion-view view-title="Dashboard" hide-nav-bar="false" >
+		<!-- content -->
+		<ion-content delegate-handle="top"   id="page-dashboard" class=" page-dashboard">
+		
+		<div class="dashboard-panel">
+			<div class="item item-title no-border item-positive-900">Menu Tutorial</div>
+			<!-- row -->
+			<div class="row">
+				<a class="col-33 no-border light positive-bg ink"  ng-href="#/ternaklovebird/videotutorial" >
+					<i class="icon ion-ios-videocam" ></i>
+					<p>{{ "Video Ternak Lovebird" | translate }}</p>
+				</a>
+			</div>
+			<!-- ./row -->
+			<div class="item item-title no-border item-positive-900">Help</div>
+			<!-- row -->
+			<div class="row">
+				<a class="col-33 no-border light positive-900-bg ink" ng-click="openURL('market://details?id=com.bstrdproject.ternaklovebird')" >
+					<i class="icon ion-android-playstore" ></i>
+					<p>{{ "Rate This App" | translate }}</p>
+				</a>
+				<a class="col-33 no-border light calm-bg ink"  ng-href="#/ternaklovebird/tutoriallain" >
+					<i class="icon ion-social-codepen" ></i>
+					<p>{{ "Tutorial Lain" | translate }}</p>
+				</a>
+				<a class="col-33 no-border light calm-900-bg ink"  ng-href="#/ternaklovebird/aboutus" >
+					<i class="icon ion-ios-barcode" ></i>
+					<p>{{ "About Us" | translate }}</p>
+				</a>
+			</div>
+			<!-- ./row -->
+			
+
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>
